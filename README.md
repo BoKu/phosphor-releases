@@ -25,6 +25,7 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **Hardware to grow into.** Five rig tiers. Upgrade CPU, GPU, RAM, cooling and network, rent a vault, run scripts.
 - **Heat and consequences.** Leaks, Squawk posts and sloppy logs raise your heat. Too much and your rig gets seized.
 - **Three difficulties.** Tourist, Runner and Ghost. On Ghost, a seizure ends the run.
+- **Illustrated throughout.** Portraits for everyone who mails you, a picture for every kind of target, shop renders, news photos and act title cards.
 - **Original procedural music and sound.** No samples, all generated live.
 - **Plain JSON saves** that you can back up or carry between computers.
 
@@ -35,7 +36,8 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 | ![Boot](screenshots/boot.jpg) **BIOS boot** | ![Desktop](screenshots/hub.jpg) **Desktop** |
 | ![Contracts](screenshots/board.jpg) **Hearth board: contracts** | ![Connect](screenshots/map.jpg) **Connect: plan your bounce chain** |
 | ![Live link](screenshots/hack.jpg) **Live link: crack the layers** | ![Gateway](screenshots/gateway.jpg) **Gateway: your rig** |
-| ![Mail](screenshots/mail.jpg) **Mail, with inbox and archive** | |
+| ![Mail](screenshots/mail.jpg) **Mail, with inbox and archive** | ![Shop](screenshots/shop.jpg) **Shop: upgrade your rig** |
+| ![News](screenshots/news.jpg) **NewsGrid: the world reacts** | ![Act card](screenshots/act.jpg) **Act II: The Throttle** |
 
 ## Download
 
