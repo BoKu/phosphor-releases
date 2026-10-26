@@ -1,3 +1,92 @@
-# PHOSPHOR releases
+<p align="center">
+  <img src="screenshots/login.jpg" alt="PHOSPHOR login screen" width="100%">
+</p>
 
-Binaries for PHOSPHOR, a green-phosphor hacking sim for 2034. Grab the latest from the Releases page.
+<h1 align="center">PHOSPHOR</h1>
+
+<p align="center"><b>Compute is the new oil. 2034.</b><br>
+A green-phosphor hacking sim for Windows, macOS and Linux. A spiritual sequel to <i>Uplink</i>.</p>
+
+<p align="center">
+  <a href="https://github.com/BoKu/phosphor-releases/releases/latest"><b>Download the latest release</b></a>
+</p>
+
+---
+
+The Meridian consortium rations the world's compute, and you are a freelance **runner** with a second-hand laptop and an AI assistant called **SPARROW**. Take contracts from the Hearth board, bounce through relays, crack servers layer by layer, wipe your logs and get out before the trace lands. Spend what you earn on a bigger rig, and decide what to do with the secrets you find.
+
+## Features
+
+- **Real-feeling intrusions.** Build a bounce chain across a world map, then break firewalls, passwords, IDS, 2FA and encryption in order while a live trace closes in.
+- **GPU-accelerated cracking view.** WebGL shaders drive the CRT glow, scanlines and the cracking display.
+- **A story worth following.** About 25 to 30 story contracts across three acts, with choices that change how it ends. Three endings in all.
+- **LANTERN, a second story for puzzle solvers.** Eight puzzles arrive by mail: ciphers, hidden words, things to count, things to draw. They are built to be solved with a pencil and paper, or with the in-game Notepad and Paint apps.
+- **A whole desktop OS.** BIOS boot, login screen, taskbar with pinnable apps, start menu with search, mail with an archive, news ticker, file browser, Notepad and Paint.
+- **Hardware to grow into.** Five rig tiers. Upgrade CPU, GPU, RAM, cooling and network, rent a vault, run scripts.
+- **Heat and consequences.** Leaks, Squawk posts and sloppy logs raise your heat. Too much and your rig gets seized.
+- **Three difficulties.** Tourist, Runner and Ghost. On Ghost, a seizure ends the run.
+- **Original procedural music and sound.** No samples, all generated live.
+- **Plain JSON saves** that you can back up or carry between computers.
+
+## Screenshots
+
+| | |
+|---|---|
+| ![Boot](screenshots/boot.jpg) **BIOS boot** | ![Desktop](screenshots/hub.jpg) **Desktop** |
+| ![Contracts](screenshots/board.jpg) **Hearth board: contracts** | ![Connect](screenshots/map.jpg) **Connect: plan your bounce chain** |
+| ![Live link](screenshots/hack.jpg) **Live link: crack the layers** | ![Gateway](screenshots/gateway.jpg) **Gateway: your rig** |
+| ![Mail](screenshots/mail.jpg) **Mail, with inbox and archive** | |
+
+## Download
+
+Get the newest build from the **[Releases page](https://github.com/BoKu/phosphor-releases/releases/latest)**.
+
+| System | File | Notes |
+|---|---|---|
+| Windows (installer) | `Phosphor Setup x.y.z.exe` | Installs and adds a Start menu shortcut. |
+| Windows (portable) | `Phosphor-x.y.z-portable.exe` | Runs without installing. |
+| macOS, Apple Silicon (M1 and later) | `Phosphor-x.y.z-arm64.dmg` | Open the DMG and drag PHOSPHOR to Applications. |
+| macOS, Intel | `Phosphor-x.y.z-x64.dmg` | As above. |
+| Linux | `Phosphor-x.y.z.AppImage` | `chmod +x Phosphor-*.AppImage`, then run it. |
+
+### First launch
+
+- **macOS:** the app is not notarised by Apple, so the first launch may be blocked. Right-click PHOSPHOR in Applications and choose **Open**, then **Open** again. If macOS says the app is damaged, run `xattr -cr /Applications/Phosphor.app` in Terminal and try again.
+- **Windows:** SmartScreen may warn about an unknown publisher. Click **More info**, then **Run anyway**.
+- **Linux:** some distributions need `libfuse2` to run AppImages.
+
+The Windows and Linux builds have not yet been tested on real machines. If something breaks, please [open an issue](https://github.com/BoKu/phosphor-releases/issues).
+
+## Getting started
+
+1. Pick a handle and a difficulty on the login screen, then **Log in**.
+2. Read your two mails. Wren left you this rig and SPARROW.
+3. Open the **Hearth board**. The training contract is already accepted.
+4. Open **Connect**, pick the Training Range and press **CONNECT**.
+5. Press **START** on the password layer, copy `welcome.txt`, shred the logs and disconnect.
+
+The full field manual is built into the game (start menu, **Manual**). If a stranger called **LANTERN** writes to you, keep a pencil handy.
+
+## Controls
+
+- Mouse for almost everything.
+- **F11** toggles full screen. The game opens full screen by default. Change this in **System > Display** (full screen, maximised or windowed).
+- The speaker icon on the taskbar mutes or sets the volume of music and effects separately.
+
+## Saves
+
+Each run is one plain `.json` file.
+
+| System | Saves folder |
+|---|---|
+| Windows | `%USERPROFILE%\Documents\Phosphor\saves` (or `OneDrive\Documents\Phosphor\saves`) |
+| macOS | `~/Documents/Phosphor/saves` |
+| Linux | `~/Documents/Phosphor/saves` |
+
+To move a run to another computer, copy its `.json` file into the same folder there and press **Load** on the login screen.
+
+## Credits
+
+Made by **BoKu**. Art generated with Google Gemini. Music and sound are procedural.
+
+PHOSPHOR is a fan-made spiritual sequel to *Uplink* by Introversion Software. No code, art or audio from *Uplink* is used. Everything in the game is fiction.
