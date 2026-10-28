@@ -29,6 +29,26 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **Original procedural music and sound.** No samples, all generated live.
 - **Plain JSON saves** that you can back up or carry between computers.
 
+## The story
+
+The main story, *Quiet Hand*, runs across three acts. Each act opens with a title card. Story contracts appear on the Hearth board as your rating grows, and some of them end with a choice.
+
+### Act I: The Inheritance
+
+A runner called **Wren** vanished and left you everything: his rig, his place on the Hearth board, and SPARROW, the assistant he wrote. Nobody will say where he went. Then you find a contract he never finished.
+
+### Act II: The Throttle
+
+Overnight, Meridian rations the world's compute and calls it fair. Hospitals go dark. Strangers start writing to you, and each one wants something different from the runner who picked up Wren's trail. Somebody is getting rich from the shortage.
+
+### Act III: KILN
+
+Everything points to one name. Getting there will take your best rig, your nerve, and the truth about the people who brought you this far. When you arrive you will have to choose, and the choices you made along the way will count.
+
+### LANTERN
+
+Somewhere along the way, a stranger who signs as **LANTERN** starts sending you puzzles. Bring a pencil.
+
 ## Screenshots
 
 | | |
@@ -74,18 +94,6 @@ The full field manual is built into the game (start menu, **Manual**). If a stra
 - Mouse for almost everything.
 - **F11** toggles full screen. The game opens full screen by default. Change this in **System > Display** (full screen, maximised or windowed).
 - The speaker icon on the taskbar mutes or sets the volume of music and effects separately.
-
-## Saves
-
-Each run is one plain `.json` file.
-
-| System | Saves folder |
-|---|---|
-| Windows | `%USERPROFILE%\Documents\Phosphor\saves` (or `OneDrive\Documents\Phosphor\saves`) |
-| macOS | `~/Documents/Phosphor/saves` |
-| Linux | `~/Documents/Phosphor/saves` |
-
-To move a run to another computer, copy its `.json` file into the same folder there and press **Load** on the login screen.
 
 ## Credits
 
