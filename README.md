@@ -20,7 +20,10 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **Real-feeling intrusions.** Build a bounce chain across a world map, then break firewalls, passwords, IDS, 2FA and encryption in order while a live trace closes in.
 - **GPU-accelerated cracking view.** WebGL shaders drive the CRT glow, scanlines and the cracking display.
 - **A story worth following.** About 25 to 30 story contracts across three acts, with choices that change how it ends. Three endings in all.
-- **LANTERN, a second story for puzzle solvers.** Eight puzzles arrive by mail: ciphers, hidden words, things to count, things to draw. They are built to be solved with a pencil and paper, or with the in-game Notepad and Paint apps.
+- **LANTERN, a second campaign for puzzle solvers.** Fifteen chapters with their own servers, characters and ending. Each clue has to be broken into, stolen, decoded and pieced together, with a pencil and paper or the in-game Notepad and Paint apps.
+- **A command-line Terminal.** Read files with `ls`, `cat`, `grep`, `decode` and `decrypt`, with built-in help for every command.
+- **Rival crews and voicemail.** Top-tier contracts can be contested. Beat a rival crew to a job and they will leave you a voicemail, and if you were sloppy, they may make good on it.
+- **Story progress at a glance.** A Story panel on your Gateway tracks every act and stays free of spoilers until you get there.
 - **A whole desktop OS.** BIOS boot, login screen, taskbar with pinnable apps, start menu with search, mail with an archive, news ticker, file browser, Notepad and Paint.
 - **Hardware to grow into.** Five rig tiers. Upgrade CPU, GPU, RAM, cooling and network, rent a vault, run scripts.
 - **Heat and consequences.** Leaks, Squawk posts and sloppy logs raise your heat. Too much and your rig gets seized.
@@ -55,7 +58,8 @@ Somewhere along the way, a stranger who signs as **LANTERN** starts sending you 
 |---|---|
 | ![Boot](screenshots/boot.jpg) **BIOS boot** | ![Desktop](screenshots/hub.jpg) **Desktop** |
 | ![Contracts](screenshots/board.jpg) **Hearth board: contracts** | ![Connect](screenshots/map.jpg) **Connect: plan your bounce chain** |
-| ![Live link](screenshots/hack.jpg) **Live link: crack the layers** | ![Gateway](screenshots/gateway.jpg) **Gateway: your rig** |
+| ![Live link](screenshots/hack.jpg) **Live link: crack the layers** | ![Gateway](screenshots/gateway.jpg) **Gateway: your rig and story progress** |
+| ![Terminal](screenshots/terminal.jpg) **Terminal, with help and autosuggest** | ![Voicemail](screenshots/voicemail.jpg) **Voicemail from rival crews** |
 | ![Mail](screenshots/mail.jpg) **Mail, with inbox and archive** | ![Shop](screenshots/shop.jpg) **Shop: upgrade your rig** |
 | ![News](screenshots/news.jpg) **NewsGrid: the world reacts** | ![Act card](screenshots/act.jpg) **Act II: The Throttle** |
 
