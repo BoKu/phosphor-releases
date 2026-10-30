@@ -23,6 +23,8 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **LANTERN, a second campaign for puzzle solvers.** Fifteen chapters with their own servers, characters and ending. Each clue has to be broken into, stolen, decoded and pieced together, with a pencil and paper or the in-game Notepad and Paint apps.
 - **A command-line Terminal.** Read files with `ls`, `cat`, `grep`, `decode` and `decrypt`, with built-in help for every command.
 - **Rival crews and voicemail.** Top-tier contracts can be contested. Beat a rival crew to a job and they will leave you a voicemail, and if you were sloppy, they may make good on it.
+- **A stock exchange.** Over fifty listed companies with share prices that react to the news, including the news you cause. Buy, sell or short them, collect dividends, and watch out for the regulator if your timing looks too good.
+- **Leverage.** Stolen files can be dirt on a company or its CEO. Name your price and a deadline. They might pay, haggle, ignore you, or fight back.
 - **Story progress at a glance.** A Story panel on your Gateway tracks every act and stays free of spoilers until you get there.
 - **A whole desktop OS.** BIOS boot, login screen, taskbar with pinnable apps, start menu with search, mail with an archive, news ticker, file browser, Notepad and Paint.
 - **Hardware to grow into.** Five rig tiers. Upgrade CPU, GPU, RAM, cooling and network, rent a vault, run scripts.
@@ -61,7 +63,8 @@ Somewhere along the way, a stranger who signs as **LANTERN** starts sending you 
 | ![Live link](screenshots/hack.jpg) **Live link: crack the layers** | ![Gateway](screenshots/gateway.jpg) **Gateway: your rig and story progress** |
 | ![Terminal](screenshots/terminal.jpg) **Terminal, with help and autosuggest** | ![Voicemail](screenshots/voicemail.jpg) **Voicemail from rival crews** |
 | ![Mail](screenshots/mail.jpg) **Mail, with inbox and archive** | ![Shop](screenshots/shop.jpg) **Shop: upgrade your rig** |
-| ![News](screenshots/news.jpg) **NewsGrid: the world reacts** | ![Act card](screenshots/act.jpg) **Act II: The Throttle** |
+| ![News](screenshots/news.jpg) **NewsGrid: the world reacts** | ![Act notification](screenshots/act.jpg) **A new act begins** |
+| ![Exchange](screenshots/exchange.jpg) **Exchange: trade on what you know** | ![Leverage](screenshots/leverage.jpg) **Leverage: name your price** |
 
 ## Download
 
