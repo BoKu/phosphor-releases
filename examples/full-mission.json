@@ -1,0 +1,317 @@
+{
+  "version": 1,
+  "companies": [
+    {
+      "id": "lumen-print",
+      "author": "demo",
+      "name": "Lumen Print Works",
+      "kind": "corp",
+      "city": "Dublin",
+      "tier": 1,
+      "blurb": "Local printers with a quiet side line in election leaflets.",
+      "ceo": "Orla Finch",
+      "files": [
+        {
+          "id": "leaflets",
+          "name": "leaflet_proofs.zip",
+          "mb": 30
+        },
+        {
+          "id": "ledger",
+          "name": "client_ledger.xlsx",
+          "mb": 12,
+          "enc": true
+        },
+        {
+          "id": "memo",
+          "name": "board_memo.txt",
+          "mb": 2,
+          "enc": false
+        }
+      ],
+      "records": [
+        {
+          "id": "badge",
+          "subject": "Rory Keane",
+          "field": "access level",
+          "value": "visitor"
+        },
+        {
+          "id": "staff",
+          "subject": "Niamh Doyle",
+          "field": "role",
+          "value": "press operator"
+        }
+      ]
+    },
+    {
+      "id": "harbour-trust",
+      "author": "demo",
+      "name": "Harbour Trust Bank",
+      "kind": "bank",
+      "city": "Cape Town",
+      "tier": 3,
+      "blurb": "A dockside bank that lends to anyone with a boat.",
+      "ceo": "Lindiwe Arends",
+      "files": [
+        {
+          "id": "loans",
+          "name": "loan_book.db",
+          "mb": 90
+        },
+        {
+          "id": "audit",
+          "name": "audit_draft.pdf",
+          "mb": 25
+        }
+      ],
+      "records": [
+        {
+          "id": "limit",
+          "subject": "Pieter Naude",
+          "field": "credit limit",
+          "value": "20000"
+        }
+      ],
+      "accounts": [
+        {
+          "id": "reserve",
+          "owner": "Harbour Trust Reserve",
+          "balance": 250000
+        },
+        {
+          "id": "slush",
+          "owner": "Cape Marine Holdings",
+          "balance": 90000
+        }
+      ]
+    },
+    {
+      "id": "tessel-couriers",
+      "author": "demo",
+      "name": "Tessel Couriers",
+      "kind": "fleet",
+      "city": "Madrid",
+      "tier": 2,
+      "blurb": "Bike and van couriers who promise delivery before lunch.",
+      "ceo": "Marta Vidal",
+      "files": [
+        {
+          "id": "routes",
+          "name": "route_logs.db",
+          "mb": 45
+        }
+      ],
+      "records": [
+        {
+          "id": "shift",
+          "subject": "Joaquin Ruiz",
+          "field": "shift",
+          "value": "night"
+        }
+      ],
+      "vehicles": [
+        {
+          "id": "van1",
+          "model": "Kestrel EV",
+          "driver": "Ines Calvo",
+          "role": "courier",
+          "plate": "TC-101-A"
+        },
+        {
+          "id": "van2",
+          "model": "Marlin XL",
+          "driver": "Pablo Sanz",
+          "role": "security lead"
+        }
+      ]
+    }
+  ],
+  "missions": [
+    {
+      "id": "proofs",
+      "author": "demo",
+      "kind": "copy",
+      "target": {
+        "pack": "lumen-print"
+      },
+      "title": "Proof of print",
+      "brief": "Lumen Print Works keeps unreleased leaflet proofs on file. Copy them and keep your head down.",
+      "tier": 1,
+      "pay": 450,
+      "requires": {
+        "proxy": 1,
+        "firewall": 1,
+        "password": 1,
+        "twofa": 1,
+        "ids": 1
+      },
+      "file": "leaflets",
+      "copyTo": "vault",
+      "wipe": true,
+      "days": 10
+    },
+    {
+      "id": "shred",
+      "author": "demo",
+      "kind": "delete",
+      "target": {
+        "pack": "lumen-print"
+      },
+      "title": "Shred the memo",
+      "brief": "A board memo has outlived its welcome. Delete it from the server.",
+      "pay": 400,
+      "requires": {
+        "proxy": 1,
+        "firewall": 1,
+        "password": 1,
+        "twofa": 1,
+        "ids": 1
+      },
+      "file": "memo",
+      "wipe": false
+    },
+    {
+      "id": "promote",
+      "author": "demo",
+      "kind": "edit",
+      "target": {
+        "pack": "lumen-print"
+      },
+      "title": "Quiet promotion",
+      "brief": "Change a visitor's access level so the front desk stops asking questions.",
+      "pay": 500,
+      "requires": {
+        "proxy": 1,
+        "firewall": 1,
+        "password": 1,
+        "twofa": 1,
+        "ids": 1
+      },
+      "record": "badge",
+      "newValue": "staff"
+    },
+    {
+      "id": "reserve",
+      "author": "demo",
+      "kind": "transfer",
+      "target": {
+        "pack": "harbour-trust"
+      },
+      "title": "Dry dock",
+      "brief": "Move money out of the Harbour Trust reserve account. Not too much, not too slow.",
+      "pay": 1900,
+      "requires": {
+        "proxy": 3,
+        "firewall": 3,
+        "password": 3,
+        "twofa": 3,
+        "ids": 3
+      },
+      "account": "reserve",
+      "amount": 60000
+    },
+    {
+      "id": "vanwatch",
+      "author": "demo",
+      "kind": "track",
+      "target": {
+        "pack": "tessel-couriers"
+      },
+      "title": "Where is van one",
+      "brief": "A client wants to know where one Tessel van goes after dark. Find it and watch.",
+      "pay": 750,
+      "requires": {
+        "proxy": 2,
+        "firewall": 2,
+        "password": 2,
+        "twofa": 2,
+        "ids": 2,
+        "telematics": 1
+      },
+      "vehicle": "van1",
+      "days": 6
+    },
+    {
+      "id": "brakes",
+      "author": "demo",
+      "kind": "vehicle",
+      "target": {
+        "pack": "tessel-couriers"
+      },
+      "title": "Emergency stop",
+      "brief": "Take control of a Tessel van and bring it to a very sudden halt.",
+      "pay": 1600,
+      "requires": {
+        "proxy": 2,
+        "firewall": 2,
+        "password": 2,
+        "twofa": 2,
+        "ids": 2,
+        "telematics": 2
+      },
+      "vehicle": "van2",
+      "action": "brakes",
+      "wipe": true
+    },
+    {
+      "id": "handoff",
+      "author": "demo",
+      "kind": "relay",
+      "target": {
+        "pack": "lumen-print"
+      },
+      "to": {
+        "pack": "tessel-couriers"
+      },
+      "title": "Hand-off",
+      "brief": "Take the leaflet proofs from Lumen and drop them on the Tessel server. Do not ask why.",
+      "pay": 800,
+      "requires": {
+        "proxy": 2,
+        "firewall": 2,
+        "password": 2,
+        "twofa": 2,
+        "ids": 2
+      },
+      "file": "leaflets"
+    },
+    {
+      "id": "daylight",
+      "author": "demo",
+      "kind": "leak",
+      "target": {
+        "pack": "harbour-trust"
+      },
+      "title": "Daylight",
+      "brief": "The audit draft belongs in public hands. Take it and let it out.",
+      "pay": 1700,
+      "requires": {
+        "proxy": 3,
+        "firewall": 3,
+        "password": 3,
+        "twofa": 3,
+        "ids": 3
+      },
+      "file": "audit"
+    },
+    {
+      "id": "freight",
+      "author": "demo",
+      "kind": "copy",
+      "target": {
+        "company": "Pellam Freight"
+      },
+      "title": "Barge manifests",
+      "brief": "Copy a file from Pellam Freight. The game picks the file.",
+      "pay": 420,
+      "requires": {
+        "proxy": 1,
+        "firewall": 1,
+        "password": 1,
+        "twofa": 1,
+        "ids": 1
+      }
+    }
+  ]
+}

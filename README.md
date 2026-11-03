@@ -102,6 +102,15 @@ The full field manual is built into the game (start menu, **Manual**). If a stra
 - **F11** toggles full screen. The game opens full screen by default. Change this in **System > Display** (full screen, maximised or windowed).
 - The speaker icon on the taskbar mutes or sets the volume of music and effects separately.
 
+## Make your own missions
+
+Anyone can write missions for PHOSPHOR. They appear in everyone's game as **Open Contracts** on the Hearth board.
+
+- **[Mission-making guide](MISSIONS.md):** every field, the rules, and a short example of each mission type.
+- **[Full example](examples/full-mission.json):** one file with every key filled in.
+
+Send your missions by [opening an issue](https://github.com/BoKu/phosphor-releases/issues) with your JSON attached. Accepted missions are added to the shared mission file, and every copy of the game picks them up automatically.
+
 ## Credits
 
 Made by **BoKu**. Art generated with Google Gemini. Music and sound are procedural.
