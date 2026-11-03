@@ -25,6 +25,7 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **Rival crews and voicemail.** Top-tier contracts can be contested. Beat a rival crew to a job and they will leave you a voicemail, and if you were sloppy, they may make good on it.
 - **A stock exchange.** Over fifty listed companies with share prices that react to the news, including the news you cause. Buy, sell or short them, collect dividends, and watch out for the regulator if your timing looks too good.
 - **Leverage.** Stolen files can be dirt on a company or its CEO. Name your price and a deadline. They might pay, haggle, ignore you, or fight back.
+- **Open Contracts.** New missions written by the community arrive on the Hearth board on their own, with no update needed. [Make your own](#make-your-own-missions).
 - **Story progress at a glance.** A Story panel on your Gateway tracks every act and stays free of spoilers until you get there.
 - **A whole desktop OS.** BIOS boot, login screen, taskbar with pinnable apps, start menu with search, mail with an archive, news ticker, file browser, Notepad and Paint.
 - **Hardware to grow into.** Five rig tiers. Upgrade CPU, GPU, RAM, cooling and network, rent a vault, run scripts.
