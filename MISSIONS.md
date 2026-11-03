@@ -61,7 +61,7 @@ Each entry in a list needs an `id` (1-32 characters: a-z, 0-9, `-`, unique withi
 
 | List | Keys | Limits |
 |---|---|---|
-| files | `id`, `name`, `mb`, optional `enc` | `name` up to 40 characters. `mb` is a whole number of at least 1. The game lowers it to `40 x tier x tier + 60` if larger. `enc: true` means the file is encrypted (the player needs a Decrypter). |
+| files | `id`, `name`, `mb`, optional `enc`, optional `body` | `name` up to 40 characters. `mb` is a whole number of at least 1. The game lowers it to `40 x tier x tier + 60` if larger. `enc: true` means the file is encrypted (the player needs a Decrypter). `body` is the text of the document: plain text, 1-4000 characters, line breaks allowed (write `\n` in JSON), no other control characters (Windows line endings `\r` and tabs are rejected, so use plain `\n` line breaks). Only `.txt`, `.docx`, `.pdf`, `.csv` and `.xlsx` files can be read, so a `body` on any other file (`.db`, `.bin`, `.zip`) is never shown. Without a `body` the game writes filler text from the file name. The Terminal can search and decode it (`cat`, `grep`, `decode b64`), so you can hide a clue: if the whole `body` is a base64 string, `decode b64 <file>` reveals it. |
 | records | `id`, `subject`, `field`, `value` | Each text is 1-40 characters. |
 | accounts | `id`, `owner`, `balance` | `balance` is a whole number from 0. The game lowers it to `400,000 x tier` if larger. |
 | vehicles | `id`, `model`, `driver`, `role`, optional `plate` | Texts up to 40 characters. `plate` up to 12. |

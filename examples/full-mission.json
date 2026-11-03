@@ -26,7 +26,8 @@
           "id": "memo",
           "name": "board_memo.txt",
           "mb": 2,
-          "enc": false
+          "enc": false,
+          "body": "BOARD MEMO - Mossgate Mills\n\nThe spring flour contract is signed.\nPlease keep the new supplier list inside this office.\n\nThe night entrance code was changed on Friday.\nAsk facilities if you are locked out."
         }
       ],
       "records": [
@@ -62,7 +63,8 @@
         {
           "id": "audit",
           "name": "audit_draft.pdf",
-          "mb": 25
+          "mb": 25,
+          "body": "RHJhZnQgbm90ZTogdGhlIHNlY29uZCBkcmF3ZXIgaG9sZHMgdGhlIHNwYXJlIGtleXMuIEJ1cm4gYWZ0ZXIgcmVhZGluZy4="
         }
       ],
       "records": [
