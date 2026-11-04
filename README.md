@@ -26,6 +26,7 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **A stock exchange.** Over fifty listed companies with share prices that react to the news, including the news you cause. Buy, sell or short them, collect dividends, and watch out for the regulator if your timing looks too good.
 - **Leverage.** Stolen files can be dirt on a company or its CEO. Name your price and a deadline. They might pay, haggle, ignore you, or fight back.
 - **Open Contracts.** New missions written by the community arrive on the Hearth board on their own, with no update needed. [Make your own](#make-your-own-missions).
+- **Hacker cards.** 25 collectible trading cards of real-world hackers, hidden on the story servers. The rarer the card, the harder the server. Your collection stays with you across every save.
 - **Story progress at a glance.** A Story panel on your Gateway tracks every act and stays free of spoilers until you get there.
 - **A whole desktop OS.** BIOS boot, login screen, taskbar with pinnable apps, start menu with search, mail with an archive, news ticker, file browser, Notepad and Paint.
 - **Hardware to grow into.** Five rig tiers. Upgrade CPU, GPU, RAM, cooling and network, rent a vault, run scripts.
@@ -66,6 +67,7 @@ Somewhere along the way, a stranger who signs as **LANTERN** starts sending you 
 | ![Mail](screenshots/mail.jpg) **Mail, with inbox and archive** | ![Shop](screenshots/shop.jpg) **Shop: upgrade your rig** |
 | ![News](screenshots/news.jpg) **NewsGrid: the world reacts** | ![Act notification](screenshots/act.jpg) **A new act begins** |
 | ![Exchange](screenshots/exchange.jpg) **Exchange: trade on what you know** | ![Leverage](screenshots/leverage.jpg) **Leverage: name your price** |
+| ![Collection](screenshots/cards.jpg) **Collection: hacker cards** | |
 
 ## Download
 
