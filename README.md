@@ -33,7 +33,7 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 - **Heat and consequences.** Leaks, Squawk posts and sloppy logs raise your heat. Too much and your rig gets seized.
 - **Three difficulties.** Tourist, Runner and Ghost. On Ghost, a seizure ends the run.
 - **Illustrated throughout.** Portraits for everyone who mails you, a picture for every kind of target, shop renders, news photos and act title cards.
-- **Original procedural music and sound.** No samples, all generated live.
+- **Original procedural music and sound.** No samples, all generated live. Every server tier has its own hacking track, from dreamy sequences to acid house and big beat, with five extra tracks mixed in at random.
 - **Plain JSON saves** that you can back up or carry between computers.
 
 ## The story
