@@ -19,11 +19,13 @@ The Meridian consortium rations the world's compute, and you are a freelance **r
 
 - **Real-feeling intrusions.** Build a bounce chain across a world map, then break firewalls, passwords, IDS, 2FA and encryption in order while a live trace closes in.
 - **GPU-accelerated cracking view.** WebGL shaders drive the CRT glow, scanlines and the cracking display.
-- **A story worth following.** About 25 to 30 story contracts across three acts, with choices that change how it ends. Three endings in all.
+- **A story worth following.** Thirty story contracts, ten in each of three acts, with choices that change how it ends. Three endings in all.
 - **LANTERN, a second campaign for puzzle solvers.** Fifteen chapters with their own servers, characters and ending. Each clue has to be broken into, stolen, decoded and pieced together, with a pencil and paper or the in-game Notepad and Paint apps.
 - **A command-line Terminal.** Read files with `ls`, `cat`, `grep`, `decode` and `decrypt`, with built-in help for every command.
 - **Rival crews and voicemail.** Top-tier contracts can be contested. Beat a rival crew to a job and they will leave you a voicemail, and if you were sloppy, they may make good on it.
 - **A stock exchange.** Over fifty listed companies with share prices that react to the news, including the news you cause. Buy, sell or short them, collect dividends, and watch out for the regulator if your timing looks too good.
+- **The Back Room.** A shady broker on Tor offers twenty one-off grey and black hat jobs: multi-step, hard, well paid, and sometimes worth trading on.
+- **White, grey or black hat.** An alignment meter on your Gateway tracks what kind of hacker you are. Steal and hurt people and you drift black, and the heat comes harder.
 - **Leverage.** Stolen files can be dirt on a company or its CEO. Name your price and a deadline. They might pay, haggle, ignore you, or fight back.
 - **Open Contracts.** New missions written by the community arrive on the Hearth board on their own, with no update needed. [Make your own](#make-your-own-missions).
 - **Hacker cards.** 25 collectible trading cards of real-world hackers, hidden on the story servers. The rarer the card, the harder the server. Your collection stays with you across every save.
